@@ -17,6 +17,11 @@ local heightOfRectangle = 200
 local areaOfRectangle
 local PI = 3.14
 
+--sound
+local correctSound = audio.loadSound("Sounds/Drake - Signs.mp3")
+local correctSoundChannel
+correctSoundChannel = audio.play(correctSound)
+
 -- set the background colour of my screen. Remember that colors are between 0 and 1.
 display.setDefault("background", 0/255, 100/255, 0/255)
 
